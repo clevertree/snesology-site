@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "SNESology Server",
+      "script": "npm",
+      "args": "start"
+    }
+  ]
+}
