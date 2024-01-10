@@ -25,8 +25,10 @@ export default function App({Component, pageProps}: AppProps) {
         <div className={themeStyles.container}>
             <header className={themeStyles.header}>
                 <Link href="/">
-                    <Image priority src="/logo-header.png" alt="Header Logo" className={themeStyles.logo} width={669}
-                           height={300}/>
+                    <Image priority src="/logo-header.png" alt="Header Logo"
+                           unoptimized
+                           className={themeStyles.logo} width={384}
+                           height={89}/>
                 </Link>
             </header>
 
